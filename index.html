@@ -1,0 +1,85 @@
+<html>
+<head>
+    <script type="text/javascript" src="ujjatekj.js"></script>
+    <title>The Game</title>
+    <link rel="stylesheet" href="ujjatekc.css">
+</head>
+
+<body>
+    <h1 align="center">The Game</h1>
+    
+<div>
+    <p id="eleje">Úton vagy a munkába, mint minden reggel és sétálsz az utcán. Egyszer csak egy gyanús alak szólít a sikátorból!</p>
+</div>
+
+<div id="result"></div>
+<div id="result2"></div>
+<div id="result3"></div>
+<div id="result4"></div>
+<div id="result5"></div>
+<div id="result6"></div>
+<br>
+<img src="https://media.tenor.co/images/ee9312e65b300f7fcfee5d05f62d56d7/tenor.gif" id="loseGif1"/>
+<img src="http://reactiongifs.me/wp-content/uploads/2013/10/i-wingman-successfully-leonardo-dicaprio.gif" id="winGif"/> <!-- The gifs that are showing when lost/won -->
+<img src="https://i.pinimg.com/originals/9c/21/ee/9c21ee86d4726572e3c50fef53325c6f.png" id="pirula"/>
+<img src="https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2018/02/luke_hand.jpeg" id="robotkez"/>
+<img src="https://www.missionbreakout.london/public/img/big/escape-room.jpg" id="menekul"/>
+<img src="moroom.jpg" id="moroom"/>
+
+
+<div>
+    <button id="left1"  onclick="Direction('left')">Oda mész hozzá</button>
+    <button id="right1" onclick="Direction('right')">Figyelmen kívül hagyod</button>
+    <button id="escape1"  onclick="Direction('escape')">Lelövöd</button>
+</div>
+<!-- the first buttons run the function Direction() when clicked --> 
+
+<br>
+
+<div>
+    <button id="left2" style="display: none" onclick="Direction2('left2')">Piros</button>
+    <button id="right2" style="display: none" onclick="Direction2('right2')">Kék</button>
+    <button id="escape2" style="display: none" onclick="Direction2('escape2')">Nem fogadok el drogokat idegenektől egy sikátorban</button>
+</div>
+
+<div>
+    <button id="A" style="display: none" onclick="Direction3('A')">Bosszúbol megkeresem egyedül azt az embert</button>
+    <button id="B" style="display: none" onclick="Direction3('B')">Bejelentem a rendőrségnek</button>
+</div>
+
+<!--deadline -->
+<div>
+    <button id="dead1" style="display: none" onclick="Direction41('dead1')">Deadline</button>
+    
+</div>
+<!--deadline -->
+
+<div>
+    <button id="red" style="display: none" onclick="Direction4('red')">Hívom a rendőrséget</button>
+    <button id="blue" style="display: none" onclick="Direction4('blue')">Megtámadom</button>
+    <button id="pink" style="display: none" onclick="Direction4('pink')">Meghallgatom mit mond</button>
+    <button id="yellow" style="display: none" onclick="Direction4('yellow')">Elfutok</button>
+    
+</div>
+
+<div>
+    <button id="blue2" style="display: none" onclick="Direction5('blue2')">Coming Soon</button>
+    <button id="yellow2" style="display: none" onclick="Direction5('yellow2')">Coming Soon</button>
+    <button id="green2" style="display: none" onclick="Direction5('green2')">Coming Soon</button>
+    <button id="red2" style="display: none" onclick="Direction5('red2')">Coming Soon</button>
+    <button id="pink2" style="display: none" onclick="Direction5('pink2')">Coming Soon</button>
+</div>
+
+<div>
+    <button id="yes" style="display: none" onclick="Direction6('yes')">Yes</button>
+    <button id="no" style="display: none" onclick="Direction6('no')">No</button>
+</div>
+
+<div>
+    <button id="tryagain" style="display: none" onclick="TryAgain()">Try Again!</button>
+</div>
+
+<div id="again"></div>
+
+</body>
+</html>
